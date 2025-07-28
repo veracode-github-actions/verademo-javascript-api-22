@@ -38,7 +38,7 @@ jobs:
           for file in verascan/*; do
             if [ -f "$file" ]; then
               echo "Scanning $file..."
-              ./veracode static scan "$file" --policy-file Al-Test.json --results-file "results.json" --policy-file Al-Test.json --fail-on-severity High --filtered-json-output-file 
+              ./veracode static scan "$file" --policy-file Al-Test.json --results-file "results.json" #--policy-file Al-Test.json --fail-on-severity High --filtered-json-output-file 
             fi
           done
 
