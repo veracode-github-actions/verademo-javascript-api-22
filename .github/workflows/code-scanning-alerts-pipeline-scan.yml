@@ -1,4 +1,5 @@
 # name: Veracode Auto-Packaging and Pipeline Scan
+# This script does Autopkg, pipeline scan, upload the results to the code scanning alerts
 
 on:
   push:
